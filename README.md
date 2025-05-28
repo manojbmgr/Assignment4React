@@ -70,5 +70,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 #
 
-### Live Url netlify
+### Live URL netlify
 [https://warm-puffpuff-cc0520.netlify.app/](https://warm-puffpuff-cc0520.netlify.app/)
