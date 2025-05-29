@@ -3,6 +3,7 @@ import InputTodo from "./components/InputTodo";
 import TodoList from "./components/TodoList";
 import AppNavbar from "./components/Navbar";
 import { Container } from "react-bootstrap";
+import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
   return (
     <TodoProvider>
