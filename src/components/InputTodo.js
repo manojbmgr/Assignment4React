@@ -1,9 +1,7 @@
-import { useState, useContext } from "react";
-import { TodoContext } from "../TodoContext";
+import { useState } from "react";
 import { Form, Button, Container } from "react-bootstrap";
-const InputTodo = () => {
+const InputTodo = ({ addTodo }) => {
   const [text, setText] = useState("");
-  const { addTodo } = useContext(TodoContext);
   const handleSubmit = (e) => {
     e.preventDefault();
     if (text.trim()) {
