@@ -1,8 +1,5 @@
-import { useContext } from "react";
-import { TodoContext } from "../TodoContext";
 import { ListGroup, Button, Container } from "react-bootstrap";
-const TodoList = () => {
-  const { todos, deleteTodo, clearAllTodos } = useContext(TodoContext);
+const TodoList = ({ todos, deleteTodo, clearAllTodos }) => {
   return (
     <Container className="mt-4">
       <ListGroup>
@@ -23,7 +20,7 @@ const TodoList = () => {
         <Button
           variant="warning"
           className="mt-3 w-100"
-           onClick={() => clearAllTodos()}
+          onClick={clearAllTodos}
           style={{ fontSize: "18px", padding: "10px", borderRadius: "10px" }}
         >
           Clear All
