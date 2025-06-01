@@ -68,8 +68,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-#
 ## Rejection 1
-<span style="background-color: yellow;">## Mentor feedback: When you store todo data in local Storage then there is no need to use useContext feature. It is used when you have multiple files. Okay, while there was instruction to use useContext</span>
+<mark>## Mentor feedback: When you store todo data in local Storage then there is no need to use useContext feature. It is used when you have multiple files. Okay, while there was instruction to use useContext</mark>
+
 ### Live URL netlify
 [https://warm-puffpuff-cc0520.netlify.app/](https://warm-puffpuff-cc0520.netlify.app/)
