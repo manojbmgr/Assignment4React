@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import Navbar from "./components/Navbar"
 import InputTodo from "./components/InputTodo";
 import TodoList from "./components/TodoList";
 import { Container } from "react-bootstrap";
@@ -18,6 +19,7 @@ const App = () => {
   };
   return (
     <Container className="mt-4">
+      <Navbar />
       <InputTodo addTodo={addTodo} />
       <TodoList todos={todos} deleteTodo={deleteTodo} clearAllTodos={clearAllTodos} />
     </Container>
