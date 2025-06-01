@@ -70,6 +70,9 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 ## Rejection 1
 <mark>## Mentor feedback: When you store todo data in local Storage then there is no need to use useContext feature. It is used when you have multiple files. Okay, while there was instruction to use useContext</mark>
+
+## Fixes
+Removed useContext
 ## Task 
 Set Up the Project:
 Create a new React app.
